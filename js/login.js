@@ -8,5 +8,5 @@ form.onsubmit = (e) => {
     }
     localStorage.setItem("currentUser", JSON.stringify(currentuser));
     sessionStorage.setItem("currentUser", JSON.stringify(currentuser));
-    location.href = '/html/home.html';
+    location.href = '/html/index.html';
 }
